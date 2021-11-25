@@ -36,6 +36,7 @@ const ExpenseForm = (props) => {
   };
 
   return (
+    
     <form onSubmit={submitHendler}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
